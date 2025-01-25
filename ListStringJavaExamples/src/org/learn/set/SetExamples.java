@@ -9,7 +9,7 @@ public class SetExamples {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Runtime r=Runtime.getRuntime();
-		System.out.println("Total Memory"+r.totalMemory());
+		System.out.println("Total Memory :"+r.totalMemory());
 		System.out.println("Free Memory"+r.freeMemory());
 		HashSet hashset=new HashSet();
 		hashset.add("capsicum");
